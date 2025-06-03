@@ -12,7 +12,7 @@ export function Home() {
         <h1>hello world</h1>
         <Description var="1-This is a simple description of the page."/>
         { test && <Description var="2-This is a simple description of the page."/>}
-        <Link href="/oussama" > oussama </Link>
+        <Link href="/tp1" > tp1 </Link>
         <Footer/>
     </main>
 

@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-function Oussama(){
+function Tp(){
     return(
         <h1>
-            oussama <br/>
+            tp1 <br/>
             <Link href="/">Home</Link>
         </h1>
     )
 }
-export default Oussama ;
+export default Tp ;
