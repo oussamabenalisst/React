@@ -12,7 +12,6 @@ function Todoliste(){
                 setList([...list , item ])
                 text.current.value=""
                 text.current.style.borderColor="black"
-                
             }else
             text.current.style.borderColor="red"
         }
