@@ -24,9 +24,36 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`antialiased`}>
+        <nav className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+          <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+            <li color="blue-gray" className="p-1 font-normal">
+              <a href="/todoloste" className="flex items-center">
+                todolist
+              </a>
+            </li>
+            <li color="blue-gray" className="p-1 font-normal">
+              <a href="./" className="flex items-center">
+                Home
+              </a>
+            </li>
+            <li color="blue-gray" className="p-1 font-normal">
+              <a href="/addEtud" className="flex items-center">
+                addEtud
+              </a>
+            </li>
+            <li color="blue-gray" className="p-1 font-normal">
+              <a href="/XO" className="flex items-center">
+                XO
+              </a>
+            </li>
+            <li color="blue-gray" className="p-1 font-normal">
+              <a href="/tp2useRefuseState" className="flex items-center">
+                tp2
+              </a>
+            </li>
+          </ul>
+        </nav>
         {children}
       </body>
     </html>
